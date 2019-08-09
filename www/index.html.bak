@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="keywords" content="麦极民宿,民宿保洁,专业民宿保洁,酒店布草,民宿布草,布草洗涤,酒店用品,智能门锁,麦极智能" />
+		<meta name="description" content="麦极智能于2019年创立，定位于民宿领域的全生态运营商，麦极服务为各类民宿主提供专业、标准的民宿保洁+布草服务，房主用的省心、房客住的舒心。" />
+		<title>麦极智能</title>
+		<link rel="icon" href="favicon.ico">
+
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="swiper/css/swiper.min.css" rel="stylesheet" />
+		<link href="css/style.css?v072301" rel="stylesheet" />
+		<link href="css/main.css?v072301" rel="stylesheet" />
+		
+	</head>
+	<body>
+		<div class="swiper-container header" id="banner">
+			<a href="index.html"><img src="img/logo.png" class="logo" id="logo" /></a>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image: url(img/banner-01.png);">
+					<div class="magi-container">
+						<h1>万亿市场等你来拿</h1>
+						<h3>麦极服务商全国火热招募中</h3>
+						<a href="investment.html" class="btn-banner01">查看详情</a>
+						<!-- <div>智能门锁+管理平台+后端服务，简单轻松经营民宿</div> -->
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image: url(img/banner-02.png);">
+					<div class="magi-container">
+						<div>麦极智能门锁</div>
+						<h1>极致简约 专为民宿设计</h1>
+						<a href="lock.html" class="btn-banner02">查看详情</a>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image: url(img/banner-03.png);">
+					<div class="magi-container banner03">
+						<h1>麦极民宿保洁</h1>
+						<div>提供专业标准化流程的民宿保洁+星级酒店布草服务</div>
+						<div>用心选材，安心睡眠，房客舒心，房主省心</div>
+					</div>
+				</div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+			<!-- 如果需要导航按钮 -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+			
+			<!-- 如果需要滚动条 -->
+			<!-- <div class="swiper-scrollbar"></div> -->
+		</div>
+		<div class="magi" role="main">
+			<div class="banner-bottom">我们做什么</div>
+			<div class="banner-bottom-border"></div>
+			<div class="banner-bottom-container">
+				<div class="banner-bottom-border"></div>
+				<div class="tabsContainer">
+					<div class="tabs">
+						<div class="tabs-item active" data-index="0">
+							<span class="tabs-item-title">
+								<!-- <span class="tabs-item-titleContainer"> -->
+									<span class="tabs-item-text">麦极民宿服务</span>
+									<span class="tabs-item-list">01</span>
+									<span class="tabs-item-border border01"></span>
+								<!-- </span> -->
+							</span>
+							<div class="tabs-item-content">麦极面向住宿业经营者的房屋维护服务。通过建立针对住宿后市场的标准化服务体系，整合优质服务商提供高效且稳定的保洁布草服务。一方面解决经营者找服务商难、管理难、标准统一难的问题；另一方面将线下服务商的服务标准化、商品化。</div>
+						</div>
+						<div class="tabs-item" data-index="1">
+							<span class="tabs-item-title">
+								<!-- <span class="tabs-item-titleContainer"> -->
+									<span class="tabs-item-text">麦极宿宝</span>
+									<span class="tabs-item-list">02</span>
+									<span class="tabs-item-border border02"></span>
+								<!-- <span> -->
+							</span>
+							<div class="tabs-item-content">麦极宿宝是麦极智能推出的房屋库存管理系统。主要用以解决订单集成管理，库存调配，免前台，免服务台问题。是建立在麦极智能上的线上管理平台，通过这个管理平台可直接智能匹配入住订单、保洁时段等，同时承载入户身份记录、设备管理等功能。</div>
+						</div>
+						<div class="tabs-item" data-index="2">
+							<span class="tabs-item-title">
+								<!-- <span class="tabs-item-titleContainer"> -->
+									<span class="tabs-item-text">麦极智能锁平台</span>
+									<span class="tabs-item-list">03</span>
+									<span class="tabs-item-border border03"></span>
+								<!-- <span> -->
+							</span>
+							<div class="tabs-item-content">为房屋经营者提供管理房屋所需的智能锁。产品具备功能丰富，超高性价比，时尚外管的优势。除此之外还可以解决身份采集、入户权限管理、免钥匙等功能，是民宿主合法高效经营的首选前端硬件。</div>
+						</div>
+					</div>
+					<div class="tabs-right">
+						<div class="tabs-right-container active" data-index="0">
+							<img src="img/minsufuwu.png" />
+						</div>
+						<div class="tabs-right-container" data-index="1">
+							<img src="img/subao.png" />
+						</div>
+						<div class="tabs-right-container" data-index="2">
+							<img src="img/suo.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="magi-code-container">
+				<div class="magi-main-title">麦极-民宿保洁</div>
+				<div class="magi-code">
+					<div class="magi-code-left">
+						<div class="magi-code-left-title">标准化民宿保洁</div>
+						<div>麦极民宿服务体系希望用标准化、高质量的民宿保洁服务，帮助民宿主减轻运营压力，提升民宿品质。</div>
+					</div>
+					<img src="img/magimini.jpg" class="magi-code-img" />
+				</div>
+			</div>
+		</div>
+		<div class="magi-footer">
+			<div class="magi-footer-top">
+				<div><img src="img/lianxidianhua.svg" />联系电话: 010-86462395</div>
+				<div><img src="img/weixin.svg" />客服微信: magilink</div>
+				<div><img src="img/youxiang.svg" />邮箱: gongxiang@magi.link</div>
+				<div><img src="img/dizhi.svg" />地址: 北京市朝阳区高碑店二区31-5号 麦极智能</div>
+			</div>
+			<div class="magi-footer-copy">
+				<div>Copyright © 北京空间共享科技有限公司 | 京ICP备19008156号</div>
+			</div>
+		</div>
+		<!-- <footer class="main-footer">
+			<div class="container">
+				<div class="row magi-footer">
+					<div class="col-sm-12">联系电话：010-86462395</div>
+					<div class="col-sm-12">客服微信：magilink</div>
+					<div class="col-sm-12">邮箱：gongxiang@magi.link</div>
+					<div class="col-sm-12">地址：北京市朝阳区高碑店二区31-5号 麦极智能</div>
+				</div>
+			</div>
+		</footer>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<span>Copyright &copy; <a href="https://www.magi.link/">北京昱智聚合科技有限公司</a></span> |
+						<span>京ICP备19008156号</span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<script src="swiper/js/swiper.min.js"></script>
+	<script src="https://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+	<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+			// autoplay:true,//可选选项，自动滑动
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			loop: true, // 循环模式选项
+			// 如果需要分页器
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'progressbar',
+			},
+			// pagination: {
+			// 	el: '.swiper-pagination',
+			// 	type: 'fraction',
+			// },
+
+			// 如果需要前进后退按钮
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+
+			// 如果需要滚动条
+			// scrollbar: {
+			// 	el: '.swiper-scrollbar',
+			// },
+		})
+		$(document).ready(function(){
+			var windowWidth = $(document.body).width();//获取浏览器窗口宽度
+			setHeight(windowWidth)
+		});
+		$(window).resize(function() {
+			var windowWidth = $(document.body).width();//获取浏览器窗口宽度
+			setHeight(windowWidth)
+		});
+		function setHeight(e){
+			// console.log(e)
+			$('#banner').height(e*(660/1366) + 1 + 'px')
+			$('.tabs-right-container').width(e * (754/1366) + 'px')
+			$('.magi-code-img').width(e * (680/1366) + 'px')
+			$('#logo').width(e * (140/1366) + 'px')
+		}
+		var widget = $('.tabsContainer');
+
+		var tabs = widget.find('.tabs .tabs-item'),
+			content = widget.find('.tabs-right .tabs-right-container');
+
+		tabs.on('click', function (e) {
+			e.preventDefault();
+			var index = $(this).data('index');
+			console.log(index);
+			console.log(content);
+			tabs.removeClass('active');
+			content.removeClass('active');
+
+			$(this).addClass('active');
+			content.eq(index).addClass('active');
+
+		});
+
+		  
+		</script>
+	</body>
+</html>
