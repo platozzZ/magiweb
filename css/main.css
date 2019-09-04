@@ -46,7 +46,7 @@ em, i {
 	display: inline-block; 
 	width: 140px; 
 	height: 37px; 
-	background-image: url(https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/logo.png); 
+	background-image: url(../img/logo.svg); 
 	background-size: 140px 37px;
 }
 .nav { 
@@ -75,7 +75,7 @@ em, i {
 	height: 2px;
 	background-image: url(https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/guangbiao@2x.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 2px;
 	background-position: bottom;
 	display: none;
 }
@@ -140,7 +140,6 @@ em, i {
 	width: 558px;
 	height: 558px;
 	margin: 0 auto;
-
 }
 .product-bgcommon{
 	position: absolute;
@@ -277,6 +276,7 @@ em, i {
 	width: 128px;
 	height: 128px;
 	margin: 0 auto 20px;
+	border-radius: 50%;
 }
 .ml100{
 	margin-left: 100px;
@@ -386,7 +386,6 @@ em, i {
 	line-height: 50px;
 	width: 170px;
 	border-radius: 25px;
-	cursor: pointer;
 	overflow: hidden;
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
@@ -402,13 +401,13 @@ em, i {
 	vertical-align: middle;
 }
 .slide-btn img.slide-img-big{
-	display: none;
+	/*display: none;*/
 	width: 90px;
 	height: 90px;
 	margin: 0 auto;
 
 }
-.slide-btn:hover{
+/*.slide-btn:hover{
 	padding: 15px 0;
 	line-height: 1;
 }
@@ -423,7 +422,7 @@ em, i {
 .slide-btn:hover img.slide-img-big{
 	display: block;
 	margin-top: 15px;
-}
+}*/
 .slide-baojie div,.slide-zs div{
 	margin-bottom: 20px
 }
@@ -459,6 +458,46 @@ em, i {
     background: #ffb109;
     color: #000;
 }
+.subao-container{
+	position: absolute;
+	top: 50%;
+	width: 630px;
+	padding: 60px 100px;
+	background: rgba(0,0,0,.35);
+	border-radius: 136px;
+	z-index: 999;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0) scale(1);
+    transform: translate3d(-50%,-50%,0) scale(1);
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 14px;
+}
+.subao-container-title{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.subao-container div{
+	line-height: 24px;
+}
+.subao-container div span{
+	color: #a5a5a5;
+}
+.baojie-container.subao-container{
+	width: 470px;
+	height: 470px;
+	padding: 160px 0;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
 .banner.news{
 	position: relative; 
 	overflow: hidden;
