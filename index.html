@@ -11,41 +11,6 @@
 	<link rel="stylesheet" href="css/jquery.fullPage.css">
 	<link rel="stylesheet" href="css/main.css">
 	<style>
-		.section { position: relative; overflow: hidden;}
-		#myVideo{
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				top:0;
-				right:0;
-				width: 100%;
-				height: 100%;
-				background-size: 100% 100%;
-		 		background-color: black; /* in case the video doesn't fit the whole page*/
-		  		background-image: /* our video */;
-		  		background-position: center center;
-		  		background-size: contain;
-		   		object-fit: cover; /*cover video background */
-		   		z-index:3;
-			}
-			.section00 .layer{
-				position: absolute;
-				z-index: 4;
-				width: 100%;
-				left: 0;
-				top: 43%;
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-			.section00 .layer h1{
-				    font-size: 5em;
-		    font-family: arial,helvetica;
-		    color: #fff;
-		    margin: 0;
-		    padding: 0;
-			}
-		.DownloadBtn */a { display: inline-block; width: 100%; height: 100%; color: #fff; font-family: 'PingFang-SC-UltraLight', '微软雅黑', '宋体'; text-decoration: none;}
 	</style>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.fullPage.min.js"></script>
@@ -107,11 +72,12 @@
 			</div>
 		</div>
 		<div class="section">
-			<video id="myVideo" loop muted data-autoplay>
+			<video class="myVideo" loop muted data-autoplay>
 				<source src="https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190905/shipin2.mp4" type="video/mp4">
 			</video>
+			
+			<div class="mask"></div>
 			<!-- <div> -->
-			<view class="mask"></view>
 			<div class="subao-container">
 				<div class="subao-container-title">麦极宿宝</div>
 				<div> · 重新定义托管 <span>- 民宿的智能托管方案 免费使用</span></div>
@@ -122,10 +88,10 @@
 			<!-- </div> -->
 		</div>
 		<div class="section">
-			<video id="myVideo" loop muted data-autoplay>
+			<video class="myVideo" loop muted data-autoplay>
 				<source src="https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190905/shipin1.mp4" type="video/mp4">
 			</video>
-			<view class="mask"></view>
+			<div class="mask"></div>
 			<div class="subao-container baojie-container">
 				<div class="subao-container-title">麦极民宿保洁</div>
 				<div> · 科学灵活的预约方案 <span>- 在线预约 合理安排保洁时段</span></div>
