@@ -462,32 +462,36 @@ em, i {
 	position: absolute;
 	top: 50%;
 	width: 630px;
-	padding: 60px 100px;
+	padding: 60px 90px 60px 100px;
 	background: rgba(0,0,0,.35);
-	border-radius: 136px;
+	border-radius: 150px;
 	z-index: 999;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0) scale(1);
     transform: translate3d(-50%,-50%,0) scale(1);
-    text-align: center;
+    text-align: left;
     color: #c0c0c0;
-    font-size: 14px;
 }
-.subao-container-title{
+.subao-container div.subao-container-title{
 	color: #fff;
 	font-size: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 .subao-container div{
-	line-height: 24px;
+    font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
 }
 .subao-container div span{
+	font-weight: normal;
+	font-size: 14px;
 	color: #a5a5a5;
 }
 .baojie-container.subao-container{
 	width: 470px;
 	height: 470px;
-	padding: 160px 0;
+	padding: 160px 0 160px 50px;
 	border-radius: 50%;
 }
 .mask{
