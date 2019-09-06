@@ -119,7 +119,7 @@ em, i {
 	width: 100%; 
 	height: 100%;
 	background-image: url(https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/chanpin-banner@2x.png);
-	background-size: auto 527px;
+	background-size: auto 703px;
 	background-position: center center;
     background-repeat: no-repeat;
 }
@@ -594,7 +594,7 @@ em, i {
 }
 .banner.news .bg {
 	background-image: url(https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/xinwen-banner-1@2x.png);
-	background-size: auto 580px;
+	background-size: auto 583px;
 }
 .newsbanner-content{
 	position: absolute;
@@ -1033,7 +1033,7 @@ em, i {
 }
 .banner.company .bg{
 	background-image: url(https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/zhineng-banner@2x.png)!important;
-	background-size: auto 570px;
+	background-size: auto 579px;
 }
 .company-banner-content{
 	text-align: center;
