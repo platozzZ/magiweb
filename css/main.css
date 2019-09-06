@@ -118,7 +118,7 @@ em, i {
 	top: 0; 
 	width: 100%; 
 	height: 100%;
-	background-image: url(https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/chanpin-banner@2x.png);
+	background-image: url(../img/chanpin-banner@2x.png);
 	background-size: auto 703px;
 	background-position: center center;
     background-repeat: no-repeat;
@@ -129,9 +129,7 @@ em, i {
 	height: 100%;
 }
 .banner-content{
-	position: absolute;
-	top: 200px;
-	left: 10%;
+	margin: 200px 0 0 80px;
 }
 .banner-title{
 	font-weight: 600;
@@ -597,9 +595,8 @@ em, i {
 	background-size: auto 583px;
 }
 .newsbanner-content{
-	position: absolute;
-	left: 10%;
-	top: 250px;
+	margin: 250px 0 0 80px;
+	/*top: 250px;*/
 }
 .newsbanner-border{
 	overflow: hidden;
