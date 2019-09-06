@@ -134,6 +134,7 @@ em, i {
 	left: 10%;
 }
 .banner-title{
+	font-weight: 600;
 	font-size: 48px;
     color: rgb(255,177,55);
 	/*background: linear-gradient(to right, #00d4b9, #18ffa0);
@@ -290,6 +291,9 @@ em, i {
 	width: 20px;
     margin-right: 6px;
     vertical-align: -4px;
+}
+.footer-left-cell span{
+	margin-left: 20px;
 }
 .footer-right img{
 	display: block;
@@ -509,6 +513,7 @@ em, i {
 	font-size: 30px;
 	margin-bottom: 30px;
 	text-align: center;
+	font-weight: 600;
 }
 .subao-container div.subao-container-title img{
 	width: 46px;
