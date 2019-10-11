@@ -293,6 +293,12 @@ em, i {
 .footer-left-cell span{
 	margin-left: 20px;
 }
+.footer-left-cell a{
+	color: #d3d3d3;
+	margin-left: 10px;
+	font-size: 12px;
+	text-decoration: underline;
+}
 .footer-right img{
 	display: block;
 	width: 128px;
