@@ -11,7 +11,7 @@ document.writeln("					客服微信: magilink");
 document.writeln("				</div>");
 document.writeln("				<div class=\'footer-left-cell\'>");
 document.writeln("					<img src=\'https://magicdn.oss-cn-beijing.aliyuncs.com/www/20190830/youxiang.svg\'>");
-document.writeln("						合作邮箱: gongxiang@magi.link<span>pr邮箱：pr@magi.link</span>");
+document.writeln("						合作邮箱: gongxiang@magi.link<span>媒体联系：pr@magi.link</span>");
 document.writeln("				</div>");
 document.writeln("					<div class=\'footer-left-cell\'>");
 document.writeln("						友情链接: ");
